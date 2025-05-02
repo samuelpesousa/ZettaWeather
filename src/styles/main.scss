@@ -1,0 +1,10 @@
+@import './variables';
+
+$primary-color: #00b894;
+$secondary-color: #0984e3;
+
+
+body {
+  background-color: $primary-color;
+  color: white;
+}
