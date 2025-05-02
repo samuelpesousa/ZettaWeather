@@ -23,7 +23,6 @@ export default function Forecast() {
   return (
     <div className="container text-center">
       <h2 className="mb-4">Previsão para {city}</h2>
-
       <div className="row justify-content-center">
         {forecast
           .filter((_, index) => index % 8 === 0)
@@ -42,7 +41,6 @@ export default function Forecast() {
             </div>
           ))}
       </div>
-
       <button className="btn btn-outline-secondary mt-3" onClick={() => navigate(-1)}>
         Voltar
       </button>

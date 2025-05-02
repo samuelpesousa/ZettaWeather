@@ -10,7 +10,31 @@ a {
   text-decoration: none;
   color: inherit;
 }
+h1 {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 700;
+}
 
+input::placeholder {
+  color: #aaa;
+}
+
+.nav-link.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+}
+
+@media (max-width: 576px) {
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    text-align: center;
+    width: 100%;
+  }
+}
 
 h2 {
   color: #0d6efd;

@@ -3,7 +3,6 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import { fetchCurrentWeather } from '../../services/weatherService';
 import Loading from '../../components/Loading/Loading';
 
-
 export default function WeatherDetails() {
   const { city } = useParams();
   const [weather, setWeather] = useState<any>(null);
@@ -14,7 +13,7 @@ export default function WeatherDetails() {
     if (city) {
       fetchCurrentWeather(city)
         .then(data => setWeather(data))
-        .catch(err => setError('Cidade não encontrada ou erro na API.'));
+        .catch(() => setError('Cidade não encontrada ou erro na API.'));
     }
   }, [city]);
 
@@ -32,7 +31,6 @@ export default function WeatherDetails() {
           <p><strong>Umidade:</strong> {weather.main.humidity} %</p>
           <p><strong>Vento:</strong> {weather.wind.speed} m/s</p>
         </div>
-
         <img
           src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`}
           alt="Ícone do clima"

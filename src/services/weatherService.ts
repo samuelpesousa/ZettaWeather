@@ -12,3 +12,11 @@ export async function fetchForecast(city: string) {
   if (!response.ok) throw new Error('Erro ao buscar previsão');
   return response.json();
 }
+
+export async function fetchCurrentWeatherByCoords(lat: number, lon: number) {
+    const url = `${BASE_URL}/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric&lang=pt_br`;
+  
+    const response = await fetch(url);
+    if (!response.ok) throw new Error('Erro ao buscar clima por coordenadas');
+    return response.json();
+  }
