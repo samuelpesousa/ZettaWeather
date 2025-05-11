@@ -9,13 +9,12 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <div className="container mt-4">
+      
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/weather/:city" element={<WeatherDetails />} />
           <Route path="/forecast/:city" element={<Forecast />} />
         </Routes>
-      </div>
       <Footer />
     </BrowserRouter>
   );
