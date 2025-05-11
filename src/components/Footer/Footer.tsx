@@ -20,7 +20,7 @@ export default function Footer() {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.2 }}
-      className="py-4" // Reduzi um pouco o padding
+      className="py-4" 
       style={{
         backgroundColor: '#0d0d12',
         borderTop: '1px solid #2a2a34',
@@ -29,7 +29,7 @@ export default function Footer() {
     >
       <div className="container">
         <div className="d-flex flex-column align-items-center gap-2"> {/* Reduzi o gap */}
-          {/* Logo combinada */}
+          
           <motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -47,7 +47,7 @@ export default function Footer() {
 
           <motion.p 
             className="m-0"
-            style={{ color: '#a0a0a0', fontSize: '0.9rem' }} // Texto um pouco menor
+            style={{ color: '#a0a0a0', fontSize: '0.9rem' }} 
             whileHover={{ color: '#ffffff' }}
             transition={{ duration: 0.3 }}
           >
@@ -67,7 +67,7 @@ export default function Footer() {
           </motion.p>
 
           <motion.div 
-            className="d-flex gap-3 mt-2" // Reduzi o gap entre ícones
+            className="d-flex gap-3 mt-2"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}

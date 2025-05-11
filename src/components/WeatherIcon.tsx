@@ -8,13 +8,13 @@ import chuva from "../assets/animations/chuva.json";
 
 const animationMap = {
   
-  clouds: cloudy,         // Para "Clouds" (API em inglês)
-  rain: rain,             // Para chuva leve
-  thunderstorm: chuva,    // Para tempestades
-  drizzle: rain,          // Para garoa
-  clear: sun,             // Para céu limpo
-  snow: cloudy,           // Para neve (usando cloudy como fallback)
-  mist: cloudy,           // Para névoa
+  clouds: cloudy,         
+  rain: rain,             
+  thunderstorm: chuva,    
+  drizzle: rain,          
+  clear: sun,             
+  snow: cloudy,          
+  mist: cloudy,           
   smoke: cloudy,
   haze: cloudy,
   dust: cloudy,
