@@ -9,7 +9,7 @@ ZettaWeather é uma aplicação web desenvolvida em React + TypeScript que permi
 - 🔍 Busca por cidade com histórico de pesquisas
 - 📍 Detecção automática da localização do usuário
 - 🌤️ Exibição de temperatura, umidade e vento
-- 📅 Previsão para os próximos 3 dias
+- 📅 Previsão para os próximos 6 dias
 - 🎞️ Ícones animados com Lottie para cada condição climática
 - 🌙 Tema escuro com responsividade total
 - 🇧🇷 Interface em português com dados em °C
