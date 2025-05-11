@@ -71,7 +71,7 @@ export default function AboutPage() {
                 Objetivo
               </h2>
               <p style={{ color: '#a0a0a0' }}>
-                Este projeto foi desenvolvido como parte da trilha de conhecimentos em Engenharia de Software da ZettaLab 2025, na qual pertence à Universidade Federal de Lavras,
+                Este projeto foi desenvolvido como parte da trilha de conhecimentos em Desenvolvimento de Software da ZettaLab 2025, na qual pertence à Universidade Federal de Lavras,
                 com o objetivo de consolidar aprendizados em desenvolvimento frontend moderno e a integração com APIs.
               </p>
             </section>
