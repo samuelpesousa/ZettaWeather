@@ -1,46 +1,104 @@
-# Getting Started with Create React App
+# 🌦️ ZettaWeather
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ZettaWeather é uma aplicação web desenvolvida em React + TypeScript que permite consultar o clima atual e a previsão para os próximos dias em qualquer cidade do mundo. A aplicação também detecta automaticamente sua localização e exibe o clima local com interface moderna e responsiva.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Funcionalidades
 
-### `npm start`
+- 🔍 Busca por cidade com histórico de pesquisas
+- 📍 Detecção automática da localização do usuário
+- 🌤️ Exibição de temperatura, umidade e vento
+- 📅 Previsão para os próximos 3 dias
+- 🎞️ Ícones animados com Lottie para cada condição climática
+- 🌙 Tema escuro com responsividade total
+- 🇧🇷 Interface em português com dados em °C
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## ⚙️ Tecnologias Utilizadas
 
-### `npm test`
+- React + TypeScript
+- React Router DOM
+- Bootstrap 5
+- SCSS
+- Axios
+- OpenWeatherMap API
+- Lottie Files (animações)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 💻 Instalação
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/seu-usuario/zettaweather.git
+cd zettaweather
+npm install
+```
+# 🔐 Configuração da API
+Crie um arquivo .env na raiz do projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Adicione sua chave da API do OpenWeatherMap:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+VITE_OPENWEATHER_API_KEY=sua_chave_aqui
 
-### `npm run eject`
+## ▶️ Como rodar
+```
+npm run dev
+```
+Acesse http://localhost:5173 no navegador.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+🧪 Exemplos para testar
+Lavras
+Belo Horizonte
+Poços de Caldas
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ou clique em "Usar minha localização" para exibir o clima da sua cidade atual.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 📱 Layout Responsivo
+O ZettaWeather funciona perfeitamente em:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Dispositivos móveis
 
-## Learn More
+Tablets
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Desktops
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Breakpoints suportados: <576px, ≥768px, ≥992px (Bootstrap 5)
+
+## 📦 Bibliotecas e Dependências
+
+React 18 + TypeScript: Base do projeto com tipagem estática
+
+React Router DOM 6: Para navegação entre páginas (SPA)
+
+Vite: Build tool ultra-rápido com Hot Module Replacement
+
+Framer Motion: Para animações fluidas e interações complexas
+
+React Query: Gerenciamento inteligente de dados da API
+
+SASS/SCSS: Pré-processador CSS para estilos avançados
+
+Bootstrap 5: Framework CSS responsivo + módulos SCSS
+
+Date-fns: Formatação e manipulação de datas/timezones
+
+Pacotes de Ícones
+React Icons: Coleção completa de ícones (FontAwesome, Material, etc.)
+
+
+Instalação Completa
+
+# Dependências principais
+Todas as dependências estão no package.json
+ ``` npm install  ```
+
+## 👨‍💻 Desenvolvido por
+Samuel de Paula e Sousa
+
+📄 Licença
+Este projeto está sob a licença MIT.
+
+---
+
