@@ -114,7 +114,7 @@ const ContactPage = () => {
               />
             </motion.div>
             <h1 style={{ color: '#4e5bff', fontSize: '2rem', marginBottom: '0.5rem' }}>Samuel Sousa</h1>
-            <p style={{ color: '#a0a0a0', marginBottom: '1rem' }}>Desenvolvedor Web / Engenharia de Software</p>
+            <p style={{ color: '#a0a0a0', marginBottom: '1rem' }}>Desenvolvedor Web / Desenvolvimento de Software</p>
           </motion.div>
 
           {/* Seção de Contato */}
