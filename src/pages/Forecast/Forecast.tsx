@@ -77,7 +77,6 @@ export default function Forecast() {
 
   if (!forecast.length) return null;
 
-  // Agrupa por dia
   const dailyForecast = forecast.reduce((acc: Record<string, ForecastItem[]>, item) => {
     const date = new Date(item.dt * 1000).toLocaleDateString('pt-BR');
     if (!acc[date]) {

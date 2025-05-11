@@ -66,7 +66,7 @@ export default function WeatherDetails() {
 
   if (!weather) return null;
 
-  // Função para formatar hora
+
   const formatTime = (timestamp: number) => {
     return new Date(timestamp * 1000).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
   };
@@ -93,7 +93,7 @@ export default function WeatherDetails() {
           boxShadow: '0 4px 20px rgba(0, 0, 0, 0.3)'
         }}
       >
-        {/* Botão Voltar no canto superior esquerdo */}
+
         <motion.button 
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}

@@ -15,7 +15,7 @@ export default function Home() {
     return JSON.parse(localStorage.getItem('city-history') || '[]');
   });
 
-  // Efeito de digitação no input
+  
   useEffect(() => {
     const cities = ['Lavras', 'São Paulo', 'Rio de Janeiro', 'Belo Horizonte', 'Divinópolis'];
     let i = 0;
@@ -50,7 +50,7 @@ export default function Home() {
     type();
   }, []);
 
-  // Saudação por turno
+
   const getGreeting = () => {
     const hour = new Date().getHours();
     if (hour < 5) return 'Boa madrugada';
@@ -87,7 +87,7 @@ export default function Home() {
 
       <div className="content-wrapper text-center" style={{ backgroundColor: 'rgba(13, 13, 18, 0.8)', minHeight: '100vh', padding: '2rem', color: '#ffffff' }}>
 
-        {/* Logo combinada centralizada */}
+       
         <div className="d-flex justify-content-center mb-3">
           <img 
             src={logoCombined} 
@@ -101,13 +101,13 @@ export default function Home() {
           />
         </div>
 
-        {/* Saudação por turno */}
+        
         <p className="mb-3" style={{ color: '#a0a0a0', fontSize: '1.1rem' }}>
           {getGreeting()},<br/>
           Consulte o clima atual de qualquer lugar:
         </p>
 
-        {/* Formulário de busca com botão integrado */}
+        
         <form onSubmit={handleSubmit} className="d-flex justify-content-center mb-4">
           <div style={{ position: 'relative', width: '100%', maxWidth: '500px' }}>
             <input
@@ -120,7 +120,7 @@ export default function Home() {
                 borderRadius: '25px',
                 width: '100%',
                 caretColor: '#ffffff',
-                paddingRight: '50px' // Espaço para o botão
+                paddingRight: '50px' 
               }}
               placeholder={placeholder}
               value={city}
