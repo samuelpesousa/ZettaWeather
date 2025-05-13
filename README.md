@@ -2,6 +2,8 @@
 
 ZettaWeather é uma aplicação web desenvolvida em React + TypeScript que permite consultar o clima atual e a previsão para os próximos dias em qualquer cidade do mundo. A aplicação também detecta automaticamente sua localização e exibe o clima local com interface moderna e responsiva.
 
+![Image](https://github.com/user-attachments/assets/fb972b94-cc92-42b2-a51b-06f7ed5189bb)
+
 ---
 
 ## 🚀 Funcionalidades
