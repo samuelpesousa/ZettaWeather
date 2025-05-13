@@ -31,7 +31,7 @@ ZettaWeather é uma aplicação web desenvolvida em React + TypeScript que permi
 ## 💻 Instalação
 
 ```bash
-git clone https://github.com/seu-usuario/zettaweather.git
+git clone https://github.com/samuelpesousa/zettaweather.git
 cd zettaweather
 npm install
 ```
